@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>superstructs</PackageId>
+    <Authors>Jeferson Tenorio</Authors>
+    <Company />
+    <Description>Superstructs is a bunch of useful value types that fortify the source code</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/mit-license.php</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jefersonsv/superstructs</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jefersonsv/superstructs</RepositoryUrl>
+    <PackageTags>struct class super structs</PackageTags>
+  </PropertyGroup>
+
+</Project>
