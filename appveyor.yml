@@ -4,3 +4,9 @@ environment:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
 before_build:
   - cmd: dotnet restore
+deploy:
+  provider: NuGet
+  api_key:
+    secure: q+Y+Db0N+Pd+gyX6hc5FRMjAtpp0gSZjv+tu/gFci0I=
+  skip_symbols: false
+  artifact: /.*\.nupkg/
