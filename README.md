@@ -9,7 +9,7 @@ His construction has five generic types like ```Or<T, U, V, W, X>``` then it's w
 
 See example:
 
-```
+```c#
 var age = new Or<string, int>();
 age = "ten years";
 age = 10;
@@ -17,9 +17,9 @@ age = 10;
 Console.WriteLine(age); // 10
 ```
 
-# Build Status
-
-[![Build status](https://ci.appveyor.com/api/projects/jefersonsv/superstructs?svg=true?svg=true)](https://ci.appveyor.com/project/jefersonsv/superstructs)
+Nuget Package
+------------
+https://www.nuget.org/packages/superstructs/
 
 
 Build Status
