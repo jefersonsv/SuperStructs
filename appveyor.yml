@@ -18,7 +18,6 @@ dotnet_csproj:
   informational_version: '{version}'
 
 build:
-  project: SuperStructs.sln
   verbosity: detailed
   publish_nuget: true
  
