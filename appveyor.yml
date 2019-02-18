@@ -4,6 +4,14 @@ environment:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
 before_build:
   - cmd: dotnet restore
+artifacts:
+
+  # pushing a single file
+  - path: superstructs.zip
+
+  # pushing all *.nupkg files in build directory recursively
+  - path: '**\*.nupkg'
+
 deploy:
   provider: NuGet
   api_key:
