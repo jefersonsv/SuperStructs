@@ -26,5 +26,3 @@ Build Status
 ------------
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ggj9ox7f633vmp2y?svg=true)](https://ci.appveyor.com/project/jefersonsv/superstructs)
-
-* https://ci.appveyor.com/project/jefersonsv/superstructs/settings/badges
