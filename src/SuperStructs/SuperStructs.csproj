@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/jefersonsv/superstructs</PackageProjectUrl>
     <RepositoryUrl>https://github.com/jefersonsv/superstructs</RepositoryUrl>
     <PackageTags>struct class super structs</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

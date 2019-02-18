@@ -6,7 +6,7 @@ namespace SuperStructs
 {
     public struct Time
     {
-        DateTime dt;
+        DateTime datetime;
 
         public override string ToString()
         {
