@@ -8,12 +8,6 @@ skip_commits:
   files:
     - '**/*.md'
 
-assembly_info:
-  patch: true
-  assembly_version: '{version}'
-  assembly_file_version: '{version}'
-  assembly_informational_version: '{version}'
- 
 build:
   project: SuperStructs.sln
   verbosity: detailed
@@ -29,6 +23,6 @@ nuget:
 deploy:
   provider: NuGet
   api_key:
-    secure: q+Y+Db0N+Pd+gyX6hc5FRMjAtpp0gSZjv+tu/gFci0I=
+    secure: El3Kj0SEU9/+Di2uXiCsTGlDWSjPcqXyO2drOT3XDGOp3rMdIX8zeXOBZLlOCQZw
   skip_symbols: false
   artifact: /.*\.nupkg/

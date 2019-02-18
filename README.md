@@ -17,3 +17,6 @@ age = 10;
 Console.WriteLine(age); // 10
 ```
 
+# Build Status
+
+[![Build status](https://ci.appveyor.com/api/projects/jefersonsv/superstructs?svg=true?svg=true)](https://ci.appveyor.com/project/jefersonsv/superstructs)
