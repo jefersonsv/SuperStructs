@@ -19,10 +19,13 @@ Console.WriteLine(age); // 10
 
 Nuget Package
 ------------
-https://www.nuget.org/packages/superstructs/
+You can install superstruct from nuget
+- https://www.nuget.org/packages//
 
+```
+PM> Install-Package superstructs
+```
 
 Build Status
 ------------
-
 [![Build status](https://ci.appveyor.com/api/projects/status/ggj9ox7f633vmp2y?svg=true)](https://ci.appveyor.com/project/jefersonsv/superstructs)
