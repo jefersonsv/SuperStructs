@@ -1,16 +1,15 @@
 image: Visual Studio 2017
+
 environment:
   DOTNET_CLI_TELEMETRY_OPTOUT: true
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+
 before_build:
   - cmd: dotnet restore
+
 artifacts:
-
-  # pushing a single file
-  - path: superstructs.zip
-
-  # pushing all *.nupkg files in build directory recursively
-  - path: '**\*.nupkg'
+  - path: artifacts/*.*nupkg
+name: Packages
 
 deploy:
   provider: NuGet
